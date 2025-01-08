@@ -1,0 +1,111 @@
+ JavaScript Operators:
+
+1) Arithmetic  Operators:
++ ,  -  ,   *  , 
+Multiplication               -   *
+Division                       -      /    (Q)
+Modulus Operator        -     %   (R)
+Exponential (raised to the power) -   **
+++ , 
+--     
+
+   let a=10
+        let b=5
+           b++
+           a--
+           document.write(b ,"<br>")
+           document.write(a ,"<br>")
+
+        document.write(a%b ,"<br>") 
+        //remainder part
+        document.write(a/b ,"<br>") 
+        //quotient
+        document.write(a*b ,"<br>")
+        document.write(a**b)
+ 
+Assignment :
+Var student   =    ”swetha”
++= 
+-=
+/=
+%=
+
+Logical Operators:
+and   -    &&
+T and T =T 
+or     -   ||
+T or F =F
+not    !
+
+Relational (Comparison) values
+
+< , > , >= ,<= , == ,=== ,!= ,!===
+
+==    - equality 
+
+Conditional operator ; Ternary operator ( ?)
+
+First evaluates an expression for a true or false ;
+Syntax: 
+Condition  ?  e1 : e2
+
+Window methods:
+alert()  :  --
+prompt() :  to take input from the user
+confirm()
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // alert("manikanta")
+        // document.write(alert)
+        // let aa=prompt("Enter Your name?")
+        // alert(`My name is :${aa}`)
+        let a1=prompt()
+        document.write(a1 ,"<br>")
+        document.write(typeof(a1) ,"<br>")
+        let a2=prompt()
+        document.write(a1+a2 ,"<br>")
+
+
+
+        let t=40
+        let r=(t>40)?'Ac-off': 'Ac-on'
+        document.write(r ,"<br>")
+
+        let a="5"
+        let b="5"
+        document.write(a==b,"<br>")
+        document.write(a!=b,"<br>")
+        document.write(a===b,"<br>")
+        document.write(a!==b,"<br>")
+        
+
+
+        document.write(a>b && a>2 ,"<br>")
+        document.write(a>b && a>12 ,"<br>")
+        document.write(a>b || a>12 ,"<br>")
+        document.write(!(a>12) ,"<br>")
+
+        a+=40 //a=a+40 a=5+40=45
+        b-=5  //b=b-5 // 2
+        document.write(b,"<br>")
+        document.write(a,"<br>")
+
+        document.write(b,"<br>")
+        document.write(a*b ,"<br>")
+        document.write(a**b ,"<br>")
+        document.write(a/b ,"<br>")
+        document.write(a%b)
+
+    </script>
+</body>
+</html>
